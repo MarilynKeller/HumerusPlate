@@ -4,12 +4,15 @@ Given a humerus 3D scan, extract a custom 3D implant (plate) shape or position a
 
 This is the official repository of the MICCAI 2023 paper : "Optimizing the 3D Plate Shape for Proximal Humerus Fractures" by Keller et al. 
 
-See the [project page](https://humerusplate.is.tue.mpg.de/) for more information.
+See the [project page](https://humerusplate.is.tue.mpg.de/) and [paper](https://humerusplate.is.tue.mpg.de/media/upload/paper2383.pdf) for more information.
 
 
-<p align="left">
+<p align="center">
   <img src="figures/code_summary_figure.png" alt="teaser" height="200" >
 </p>
+
+<p style="text-align: center;"><i> 
+Given a humerus scan (a), we register a template bone and generate a custom plate for the bone (b), <br>or we optimize the placement of an existing plate on the bone (c).</i></p>
 
 
 # Installation
