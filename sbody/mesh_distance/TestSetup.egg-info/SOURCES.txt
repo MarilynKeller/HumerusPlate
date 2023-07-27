@@ -1,0 +1,6 @@
+setup.py
+/tmp/tmpy7vg29cv.c
+TestSetup.egg-info/PKG-INFO
+TestSetup.egg-info/SOURCES.txt
+TestSetup.egg-info/dependency_links.txt
+TestSetup.egg-info/top_level.txt

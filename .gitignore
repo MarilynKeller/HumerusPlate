@@ -1,0 +1,7 @@
+data/
+output/
+.history/
+*__pycache__/
+humplate.egg-info/
+.vscode/
+dist/
