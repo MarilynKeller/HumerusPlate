@@ -1,8 +1,6 @@
-chumpy
 numpy
 matplotlib
 scikit-learn 
 tqdm
 wheel
 cython
-git+https://github.com/MPI-IS/mesh.git 

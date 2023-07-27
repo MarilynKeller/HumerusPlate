@@ -23,10 +23,19 @@ cd HumerusPlate
 python3.8 -m venv ~/.virtualenvs/humplate_venv
 source ~/.virtualenvs/humplate_venv/bin/activate
 pip install -r requirements.txt
+pip install git+https://github.com/mattloper/chumpy # do not use pip install chumpy, we need version 0.71 which has no released binaries
+pip install git+https://github.com/MPI-IS/mesh.git 
 pip install -e .
 ```
 
-Download the data folder from the project page Download section : https://humerusplate.is.tue.mpg.de and unzip it to get the following hierarchie: 
+To run the bone registration and the plate positioning optimization, you will need to compile sample2meshdist library as follows:
+
+```
+cd sbody/mesh_distance
+python setup.py install
+```
+
+Finally, download the data folder from the project page Download section : https://humerusplate.is.tue.mpg.de and unzip it to get the following hierarchie: 
 
 ```
 HumerusPlate/
@@ -39,12 +48,7 @@ HumerusPlate/
 ...
 ```
 
-To run the bone registration and the plate positioning optimization, you will need to compile sample2meshdist library as follows:
 
-```
-cd sbody/mesh_distance
-python setup.py install
-```
 
 # Usage
 

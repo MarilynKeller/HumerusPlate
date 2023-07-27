@@ -136,7 +136,6 @@ def run_swarm_fit_plate2bone(plate_id, vol_id, plate_mesh, vol_mesh, nb_sample =
     print("best_fit_rate = {}".format(best_fit_data))
     print("particle_fit_rate = {}".format(particle_fit_rate))
 
-    import ipdb; ipdb.set_trace()
     fit_file = bd.get_plate_bone_fit(vol_id, plate_id)
     best_fit_data.paticle_fit_rate = particle_fit_rate
     pkl.dump(best_fit_data, open(fit_file, "wb"))
