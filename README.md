@@ -39,7 +39,7 @@ HumerusPlate/
 ...
 ```
 
-## To run the plate positioning optimization, you will need to compile sample2meshdist library as follows:
+To run the bone registration and the plate positioning optimization, you will need to compile sample2meshdist library as follows:
 
 ```
 cd sbody/mesh_distance
