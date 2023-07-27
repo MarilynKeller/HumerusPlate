@@ -15,10 +15,25 @@ See the [project page](https://humerusplate.is.tue.mpg.de/) for more information
 # Installation
 
 ```
+git clone https://github.com/MarilynKeller/HumerusPlate.git
+cd HumerusPlate
 python3.8 -m venv ~/.virtualenvs/humplate_venv
 source ~/.virtualenvs/humplate_venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
+```
+
+Download the data folder from the project page Download section : https://humerusplate.is.tue.mpg.de and unzip it to get the following hierarchie: 
+
+```
+HumerusPlate/
+├─ data/
+│  ├─ plate_set
+│  ├─ samples
+│  ├─ templates
+├─ humplate/
+├─ demos/
+...
 ```
 
 ## To run the plate positioning optimization, you will need to compile sample2meshdist library as follows:
